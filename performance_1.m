@@ -41,7 +41,5 @@ end
 % plotting
 plot(index_list,time_list,"r", index_list, time1_list, "b")
 
-% it says vectorization is much more better for saving time 
-
-
+% it says that vectorization is much more better for saving time 
 
