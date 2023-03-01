@@ -8,7 +8,6 @@ myvec2 = data(2,:);
 
 % myvec2 to the function "findeverything"
 % size of the myvec must be like (1,i) to be able to work correctly 
-
 [mymax, mymin, myavg, mystdv, myclosest] = findeverything(myvec2);
 disp("mymax= "+ mymax)
 disp("mymin=" + mymin)
