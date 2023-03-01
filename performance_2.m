@@ -5,7 +5,7 @@ for N=1:8
     
     % creating the vector without Preallocating
     tic;
-    for i=1:size(v,2)
+    for i=1:10^N
         v(i) = i*i;
     end
     mytime1 = toc;
