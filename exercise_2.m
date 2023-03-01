@@ -6,7 +6,6 @@ data = dlmread("randomexercise.txt",",");
 myvec1 = data(1,:);
 myvec2 = data(2,:);
 
-
 % myvec2 to the function "findeverything"
 % size of the myvec must be like (1,i) to be able to work correctly 
 
@@ -24,5 +23,4 @@ title("data from randomexercise.txt")
 xlabel("(1:1:100)")
 ylabel("rand(1,100)")
 grid on
-
 
